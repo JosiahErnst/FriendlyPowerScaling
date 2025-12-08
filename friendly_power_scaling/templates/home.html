@@ -1,14 +1,16 @@
 {% extends "base.html" %}
-{% load static %}
-<link rel="stylesheet" href={% static 'FriendlyPowerScaling/style.css' %}>
+{% comment %} {% load static %}
+<link rel="stylesheet" href={% static 'FriendlyPowerScaling/style.css' %}> {% endcomment %}
 
 {% block title %}Home{% endblock %}
 
 
 {% block content %}
-<h1>Hello World from home</h1>
+<body>
+    <h1>Hello World from home</h1>
 
-<p>Test test test</p>
+    <p>Test test test</p>
+</body>
 {%endblock%}
 
 

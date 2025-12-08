@@ -1,7 +1,17 @@
 h1{
-    color:red;
+    color:aqua;
 
 }
 p{
     color:red;
+}
+head{
+    width: 500px;
+    height: 200px;
+    box-shadow: 10px 10px 10px 0px;
+}
+body{
+    background-color: aqua;
+    width: 500px;
+    height: 200px;
 }
