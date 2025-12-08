@@ -117,6 +117,11 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
+# Added from django docs
+STATICFILES_DIRS = [
+    BASE_DIR / 'FriendlyPowerScaling/static'
+]
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
