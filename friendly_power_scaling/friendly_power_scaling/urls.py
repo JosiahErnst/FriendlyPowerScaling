@@ -20,5 +20,8 @@ from FriendlyPowerScaling import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.main),
+    path('', views.home),
+    path('home/', views.home, name="home"),
+    path('profile/', views.profile, name="profile"),
+    path('battle/', views.battle, name="battle"),
 ]
