@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% load static %}
+<link rel="stylesheet" href={% static 'FriendlyPowerScaling/style.css' %}>
+
+{% block title %}Create Profile{% endblock %}
+
+<link rel="static/stylesheet" href="style.css">
+
+{% block content %}
+<h1>Create a new Profile</h1>
+
+<form style="position:absolute; left:45%" action="/" method="post">
+    {% csrf_token %}
+    {{ form }}
+    <input type="submit" value="Submit">
+</form>
+
+
+{%endblock%}

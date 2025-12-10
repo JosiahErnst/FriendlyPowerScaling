@@ -1,15 +1,22 @@
 {% extends "base.html" %}
-{% comment %} {% load static %}
-<link rel="stylesheet" href={% static 'FriendlyPowerScaling/style.css' %}> {% endcomment %}
+{% load static %}
+<link rel="stylesheet" href={% static 'FriendlyPowerScaling/style.css' %}>
 
 {% block title %}Home{% endblock %}
 
 
 {% block content %}
 <body>
-    <h1>Hello World from home</h1>
+    <h1>Welcome to Friendly Power Scaling!</h1>
 
-    <p>Test test test</p>
+    <p>This is a website where you can compare your abilities with your friends!</p>
+    <p>Make a profile to see where you rank!</p>
+
+
+    <h3>Here are today's high scorers:</h3>
+    <div id="scoreboard">
+        <p>Scores</p>
+    </div>
 </body>
 {%endblock%}
 

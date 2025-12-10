@@ -1,11 +1,10 @@
-{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{%block title%}FriendlyPowerScaling{%endblock%}</title>
-    
+    {% load static %}
     <link rel="stylesheet" href={% static 'FriendlyPowerScaling/style.css' %}>
     <!--Navbar found via Bootstrap-->
     <div id="nav-shadow">
@@ -13,7 +12,14 @@
         <a class="navbar-link" href="/">Home</a>
         <a class="navbar-link" href="/profile">Profile</a>
         <a class="navbar-link" href="/battle">Battle</a>
+        <a class="navbar-link" href="/createProfile">Create a Profile</a>
     </nav>
+    <form style="position: fixed; top: 2%; right: 5%;" action="/searchResults/" method="post">
+        {% csrf_token %}
+        {{ searchForm }}
+        <input type="submit" id="searchbtn" value="Search">
+    </form>
+    
     </div>
 
 </head>

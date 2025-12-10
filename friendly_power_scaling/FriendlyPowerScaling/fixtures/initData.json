@@ -1,0 +1,50 @@
+[
+    {
+        "model":"FriendlyPowerScaling.profile",
+        "pk": 1,
+        "fields": {
+            "FirstName" : "Josiah",
+            "LastName" : "Ernst",
+            "Description" : "A young, bright Computer Science student.",
+            "Strength" : 45,
+            "Charisma" : 70,
+            "Intelligence" : 86,
+            "Wisdom" : 65,
+            "Dexterity" : 56,
+            "Grit" : 64,
+            "Overall" : 63
+        }
+    },
+    {
+        "model":"FriendlyPowerScaling.profile",
+        "pk": 2,
+        "fields": {
+            "FirstName" : "Eddie",
+            "LastName" : "Hall",
+            "Description" : "A previous World's Strongest Man champion",
+            "Strength" : 99,
+            "Charisma" : 70,
+            "Intelligence" : 65,
+            "Wisdom" : 65,
+            "Dexterity" : 20,
+            "Grit" : 96,
+            "Overall" : 69
+        }
+    },
+    {
+        "model":"FriendlyPowerScaling.profile",
+        "pk": 3,
+        "fields": {
+            "FirstName" : "Keanu",
+            "LastName" : "Reeves",
+            "Description" : "Action star, martial artist, well-loved icon",
+            "Strength" : 76,
+            "Charisma" : 87,
+            "Intelligence" : 76,
+            "Wisdom" : 71,
+            "Dexterity" : 85,
+            "Grit" : 87,
+            "Overall" : 80
+        }
+    }
+]
