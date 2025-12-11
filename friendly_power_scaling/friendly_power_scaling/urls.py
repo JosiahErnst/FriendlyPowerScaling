@@ -22,7 +22,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home),
     path('home/', views.home, name="home"),
-    path('profile/', views.profile, name="profile"),
     path('battle/', views.battle, name="battle"),
     path('createProfile/', views.createProfile, name="createProfile"),
     path('searchResults/', views.searchResults, name="searchResults"),
